@@ -16,16 +16,23 @@ function conversions() {
   let hexaNum = Number(number.value).toString(16);
   //octal
   let octNum = Number(number.value).toString(8);
-  binary.append(binaryNum);
-  hexa.append(hexaNum);
-  oct.append(octNum);
-}
-
-function resetValue() {
-  number.value = "";
+  //delete initial value
   binary.innerText = "";
   hexa.innerText = "";
   oct.innerText = "";
+  //append
+  binary.append(binaryNum);
+  hexa.append(hexaNum);
+  oct.append(octNum);
+  convert.disabled = true;
+}
+
+function resetValue() {
+  number.value = "0";
+  binary.innerText = "0";
+  hexa.innerText = "0";
+  oct.innerText = "0";
+  convert.disabled = false;
 }
 
 //EVENTS
