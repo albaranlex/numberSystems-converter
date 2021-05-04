@@ -1,0 +1,83 @@
+body {
+  font-family: Avenir;
+}
+
+.main-container {
+  background-image: url(./Picture1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+}
+
+#userInput,
+#result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#result {
+  padding-top: 65px;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-left: 40px;
+  margin: 0;
+  color: white;
+}
+
+h4 {
+  font-size: 12px;
+  color: white;
+  margin-top: 10px;
+  font-weight: 100;
+}
+input {
+  width: 70px;
+  height: 70px;
+  font-size: 3rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: 100px;
+  height: 40px;
+  margin: 20px 10px;
+  padding: 10px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -25px;
+}
+.binary,
+.octa,
+.hexa {
+  border: 1px solid #a8a7a77c;
+  border-radius: 10px;
+  width: 99%;
+  height: 15px;
+  padding: 10px 0;
+  margin: 10px 0;
+}
