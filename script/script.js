@@ -38,3 +38,4 @@ function resetValue() {
 //EVENTS
 convert.addEventListener("click", conversions);
 reset.addEventListener("click", resetValue);
+number.addEventListener("click", resetValue);
