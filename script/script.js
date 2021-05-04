@@ -1,3 +1,4 @@
+//SELECTORS
 const number = document.querySelector(".number");
 const convert = document.querySelector(".convert");
 const reset = document.querySelector(".reset");
@@ -5,10 +6,7 @@ const binary = document.querySelector(".binary");
 const hexa = document.querySelector(".hexa");
 const oct = document.querySelector(".oct");
 
-// //FUNCTiONS
-
-// //dec to binary
-
+//FUNCTiONS
 function conversions() {
   //binary
   let binaryNum = Number(number.value).toString(2);
@@ -39,3 +37,5 @@ function resetValue() {
 convert.addEventListener("click", conversions);
 reset.addEventListener("click", resetValue);
 number.addEventListener("click", resetValue);
+
+//note to self: make input textfeld blank on click or on focus.
