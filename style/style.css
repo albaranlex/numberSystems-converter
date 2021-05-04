@@ -39,7 +39,7 @@ h4 {
   font-weight: 100;
 }
 input {
-  width: 70px;
+  width: 120px;
   height: 70px;
   font-size: 3rem;
   background-color: transparent;
@@ -72,7 +72,7 @@ span {
   margin-top: -25px;
 }
 .binary,
-.octa,
+.oct,
 .hexa {
   border: 1px solid #a8a7a77c;
   border-radius: 10px;
